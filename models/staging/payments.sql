@@ -2,7 +2,7 @@
 
 with src_payments as 
 (
-    select * from WORKSHOP."COURSE-DBT-AIRBYTE".PAYMENTS
+    select * from WORKSHOP.MONGODB.PAYMENTS
     
 )
 select 
