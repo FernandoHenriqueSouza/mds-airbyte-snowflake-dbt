@@ -1,10 +1,9 @@
 {{ config(materialized='view') }}
 
-with src_payments as 
-(
-    select * from WORKSHOP.MONGODB.PAYMENTS
-    
+WITH src_payments AS (
+    SELECT * FROM WORKSHOP.MONGODB.PAYMENTS
 )
+
 SELECT
     ps.user_id,
     ps.city,
@@ -14,4 +13,4 @@ SELECT
     ps.credit_card_type,
     ps.subscription_price
 FROM
-    src_payments as ps
+    src_payments as ps;
