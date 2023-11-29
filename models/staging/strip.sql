@@ -1,1 +1,0 @@
-select * from WORKSHOP.MONGODB.STRIP limit 10
