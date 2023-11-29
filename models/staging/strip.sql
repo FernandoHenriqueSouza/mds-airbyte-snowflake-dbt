@@ -1,0 +1,1 @@
+select * from WORKSHOP."COURSE-DBT-AIRBYTE".STRIP limit 10
