@@ -5,7 +5,7 @@ with src_payments as
     select * from WORKSHOP.MONGODB.PAYMENTS
     
 )
-select 
+SELECT
     ps.user_id,
     ps.city,
     ps.race,
@@ -13,4 +13,5 @@ select
     ps.currency,
     ps.credit_card_type,
     ps.subscription_price
-from src_payments as ps
+FROM
+    src_payments as ps
