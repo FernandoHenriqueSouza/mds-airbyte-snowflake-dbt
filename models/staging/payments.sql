@@ -13,4 +13,4 @@ SELECT
     ps.credit_card_type,
     ps.subscription_price
 FROM
-    src_payments as ps;
+    src_payments as ps
