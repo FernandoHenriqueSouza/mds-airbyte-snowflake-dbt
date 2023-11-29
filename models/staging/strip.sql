@@ -1,1 +1,1 @@
-select * from WORKSHOP."COURSE-DBT-AIRBYTE".STRIP limit 10
+select * from WORKSHOP.MONGODB.STRIP limit 10

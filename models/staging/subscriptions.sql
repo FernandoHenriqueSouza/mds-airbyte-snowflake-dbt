@@ -2,7 +2,7 @@
 
 with src_subscriptions as 
 (
-    select * from WORKSHOP."COURSE-DBT-AIRBYTE".SUBSCRIPTIONS
+    select * from WORKSHOP.MONGODB.SUBSCRIPTIONS
     
 )
 select 

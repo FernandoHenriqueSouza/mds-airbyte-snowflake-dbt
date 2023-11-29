@@ -2,7 +2,7 @@
 
 with src_user as 
 (
-    select * from workshop."COURSE-DBT-AIRBYTE".user
+    select * from workshop.MONGODB.user
     
 )
 select 
