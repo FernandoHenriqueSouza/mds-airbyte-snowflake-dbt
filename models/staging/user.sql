@@ -1,3 +1,5 @@
+{{ config(materialized='view') }}
+
 with src_user as 
 (
     select * from workshop."COURSE-DBT-AIRBYTE".user
