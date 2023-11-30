@@ -1,16 +1,16 @@
 {{ config(materialized='view') }}
 
-WITH src_payments AS (
-    SELECT * FROM WORKSHOP.MONGODB.PAYMENTS
+with src_payments as 
+(
+    select * from workshop.MONGODB.PAYMENTS
+    
 )
-
-SELECT
-    ps.user_id,
-    ps.city,
-    ps.race,
-    ps.country,
-    ps.currency,
-    ps.credit_card_type,
-    ps.subscription_price
-FROM
-    src_payments as ps
+select 
+    ps.USER_ID,
+    ps.CITY,
+    ps.RACE,
+    ps.COUNTRY,
+    ps.CURRENCY,
+    ps.CREDIT_CARD_TYPE,
+    ps.SUBSCRIPTION_PRICE
+from src_payments as ps
